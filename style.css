@@ -1,6 +1,4 @@
-/* ===========================
-   GLOBAL RESET & BASE
-=========================== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -57,9 +55,6 @@ img {
 }
 
 
-/* ===========================
-   NAVIGATION
-=========================== */
 nav {
   background-color: #111;
   padding: 14px 24px;
@@ -251,4 +246,27 @@ footer {
 
 .contact-info p {
   margin-bottom: 4px;
+}
+
+
+/* ===========================
+   PROJECT CLASS GROUPS
+=========================== */
+.class-group {
+  border: 2px solid #111;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+.class-title {
+  font-size: 1.6rem;
+  background-color: #111;
+  color: #fff;
+  padding: 8px 14px;
+  margin: -24px -24px 24px -24px;
+}
+
+.project-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
 }
