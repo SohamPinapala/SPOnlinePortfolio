@@ -1,4 +1,6 @@
-
+/* ===========================
+   GLOBAL RESET & BASE
+=========================== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -55,6 +57,9 @@ img {
 }
 
 
+/* ===========================
+   NAVIGATION
+=========================== */
 nav {
   background-color: #111;
   padding: 14px 24px;
@@ -269,4 +274,41 @@ footer {
 .project-section h3 {
   font-size: 1.2rem;
   margin-bottom: 8px;
+}
+
+
+/* ===========================
+   CAREER PROGRAM SECTION
+=========================== */
+.program-section {
+  margin-top: 40px;
+  border: 3px solid #111;
+  padding: 28px;
+}
+
+.program-title {
+  font-size: 1.8rem;
+  background-color: #111;
+  color: #fff;
+  padding: 10px 16px;
+  margin: -28px -28px 24px -28px;
+}
+
+.program-meta {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.program-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.program-img {
+  width: 260px;
+  border: 1px solid #ccc;
+  flex-shrink: 0;
 }
